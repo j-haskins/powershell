@@ -44,6 +44,23 @@ A script designed to prevent your system from entering an idle state, sleeping, 
 
 ---
 
+### 3. Winget Environment Setup (`winget.ps1`)
+A script to automate the installation of common development tools using the Windows Package Manager (winget).
+
+- **How to Use:**
+  1. Open PowerShell (run as Administrator for best results).
+  2. Run the script:
+     ```powershell
+     .\winget.ps1
+     ```
+- **Features:**
+  - Installs popular development tools such as Notepad++, VS Code, PowerShell Core, Windows Terminal, and Git.
+  - Includes tools for containers, cloud, and security (Podman, Azure CLI, Burp Suite).
+  - Installs languages and frameworks like Node.js and Python.
+  - Runs `winget upgrade all` at the end to keep all packages up to date.
+
+---
+
 ## Getting Started / Execution Policy
 
 To run these scripts, you may need to bypass the default PowerShell execution policy for your current session:
