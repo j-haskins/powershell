@@ -46,5 +46,8 @@ winget install -e -h --id Python.Python.3.13
 winget install -e -h --id Docker.DockerDesktop
 winget install -e -h --id Docker.DockerCLI
 
+# Thunderbird
+winget install -e --id Mozilla.Thunderbird
+
 # Update
 winget upgrade all -h
