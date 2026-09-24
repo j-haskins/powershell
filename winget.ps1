@@ -8,6 +8,9 @@ winget install -e -h --id Microsoft.WindowsTerminal
 winget install -e -h --id Git.Git
 winget install GitHub.Copilot
 
+# Antigravity
+winget install Google.AntigravityIDE
+
 # Thunderbird
 winget install -e --id Mozilla.Thunderbird
 
