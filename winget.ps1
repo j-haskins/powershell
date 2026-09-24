@@ -17,6 +17,9 @@ winget install -e --id Mozilla.Thunderbird
 #Spotify
 winget install -e --id Spotify.Spotify
 
+# Google Drive
+winget install -e --id Google.GoogleDrive
+
 # Additional Apps
 # Notepad++
 winget install -e -h --id Notepad++.Notepad++
