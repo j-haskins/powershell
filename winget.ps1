@@ -14,8 +14,11 @@ winget install Google.AntigravityIDE
 # Thunderbird
 winget install -e --id Mozilla.Thunderbird
 
-#Spotify
+# Spotify
 winget install -e --id Spotify.Spotify
+
+# Discord
+winget install -e --id Discord.Discord
 
 # Google Drive
 winget install -e --id Google.GoogleDrive
